@@ -3,7 +3,7 @@
 if(! function_exists('page_title')){
     function page_title($title){
 
-        $base_title = 'Laracarte';
+        $base_title = config('app.name') . '-siwar';
 
     if($title === '')    {
         return $base_title;
