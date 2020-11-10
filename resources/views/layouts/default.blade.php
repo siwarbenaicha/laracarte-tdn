@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Laracarte</title>
+
+        <title>{{ page_title($title ?? '') }}</title> {{-- fonction helper--}}
+
+{{--    <title>{{isset($title) ? $title. '|' : ''}} Laracarte</title>--}}
 
     <!-- Font awesome pour les icones-->
     <link rel="stylesheet" type="text/css"
