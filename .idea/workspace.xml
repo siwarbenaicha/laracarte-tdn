@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e42cd256-ffb3-4196-88ab-c832dc9bece0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/laracarte.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laracarte.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/contacts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/contacts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +146,7 @@
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/mercuryseries/flashy" />
     </include_path>
   </component>
   <component name="ProjectId" id="1k67gPSMBJQ69QkeJK0leg2bkOK" />
@@ -173,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605009301990</updated>
       <workItem from="1605009303328" duration="10384000" />
-      <workItem from="1605082561672" duration="3306000" />
+      <workItem from="1605082561672" duration="18938000" />
     </task>
     <servers />
   </component>
@@ -196,9 +203,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="715" y="68" width="585" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605014472842" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605023745094">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605107865290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605023745094" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605107865290" />
   </component>
 </project>

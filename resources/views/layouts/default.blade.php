@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
 
-        <title>{{ page_title($title ?? '') }}</title> {{-- fonction helper--}}
+    <title>{{ page_title($title ?? '') }}</title> {{-- fonction helper--}}
 
 {{--    <title>{{isset($title) ? $title. '|' : ''}} Laracarte</title>--}}
 
-    <!-- Font awesome pour les icones-->
+<!-- Font awesome pour les icones-->
     <link rel="stylesheet" type="text/css"
           href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -28,7 +28,7 @@
         body {
             /*padding-top: 80px;*/
             {{--navbar-static-top--}}
- font-family: 'open sans', sans-serif;
+  font-family: 'open sans', sans-serif;
         }
 
         footer {
@@ -52,6 +52,6 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
-
+@include('flashy::message')
 </body>
 </html>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Mail\ContactMessageCreated;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,15 +27,27 @@ Route::get('/', [
     'uses' => 'PagesController@home'
 ]); // ou bien Route::name('home_path')->get('/','PagesController@home');
 
+
 Route::get('/about', [
     'as' => 'about_path',
     'uses' => 'PagesController@about'
 ]);
 
 Route::get('/contact', [
-    'as' => 'contact_path',
+    'as' => 'contact_path',       /*tnajem thot contact.create*/
     'uses' => 'ContactController@create'
 ]);
+
+Route::post('/contact', [
+    'as' => 'contact_path',      /*tnajem thot contact.store*/
+    'uses' => 'ContactController@store'
+]);
+
+
+//Route::get('/test-email', function (){
+//
+//    return new ContactMessageCreated('khra','khra','khra'); // en l'appelant il va faire le travail et afficher notre mail
+//});
 
 
 
