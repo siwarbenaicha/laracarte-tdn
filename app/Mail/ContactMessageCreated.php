@@ -39,7 +39,8 @@ class ContactMessageCreated extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.created');  //une version html
+        return $this->from($this->msg->email,$this->msg->name)
+            ->markdown('emails.created');  //une version html
         //                     -> with([
 //                         'name'=>'Siwar',
 //                         'email'=>'Benaichasiwar@gmail.com',

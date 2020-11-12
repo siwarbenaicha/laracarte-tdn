@@ -22,6 +22,9 @@ class ContactController extends Controller
             'message'=>'required|min:10'
         ]);
 
+       // sleep(3);//on peut ajouter ce sleep au niveau du methode buil du mailable
+
+
         $message = new Message(); // ou bien remplacer tout ça avec Message::create($request->only('name','email','message'));
         $message->name = $request->name;
         $message->email = $request->email;
@@ -31,7 +34,8 @@ class ContactController extends Controller
 //        $mailable =  new ContactMessageCreated($request->name,$request->email,$request->message);
         $mailable =  new ContactMessageCreated($message);
 
-        Mail::to(config('laracarte.admin_support_email'))->send($mailable);
+        Mail::to(config('laracarte.admin_support_email'))   // ->send($mailable);
+        ->queue($mailable); // envoyer le mail d'une maniere asyncrone // ou bien mettre send et au niveau du mailable on fait implements ShouldQueue
 
         flashy()->success('Done!', 'http://your-awesome-link.com');
 
