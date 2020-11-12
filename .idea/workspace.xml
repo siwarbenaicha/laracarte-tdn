@@ -21,11 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e42cd256-ffb3-4196-88ab-c832dc9bece0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/ContactMessageCreated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ContactMessageCreated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/HelpersTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/HelpersTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +159,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\LaravelProjects\laracarte\app\Models" />
       <recent name="C:\Users\dell\LaravelProjects\laracarte\resources\views\layouts" />
     </key>
   </component>
@@ -177,7 +179,7 @@
       <updated>1605009301990</updated>
       <workItem from="1605009303328" duration="10384000" />
       <workItem from="1605082561672" duration="22849000" />
-      <workItem from="1605170016893" duration="4272000" />
+      <workItem from="1605170016893" duration="13600000" />
     </task>
     <servers />
   </component>
@@ -197,13 +199,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605180847469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605180847469" />
     <state x="715" y="68" width="585" height="592" key="find.popup" timestamp="1605014472842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="715" y="68" width="585" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605014472842" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605173615767">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605192841169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605173615767" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605192841169" />
   </component>
 </project>
